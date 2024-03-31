@@ -149,7 +149,7 @@ gcloud container clusters delete [cluster-name]
 ```   
 
 ## network load balancing with [target pool](https://cloud.google.com/load-balancing/docs/target-pools) and [forwarding rules](https://cloud.google.com/load-balancing/docs/forwarding-rule-concepts)
-**先創建三個VM分別host不同的page**
+**先創建三個VM分別host不同的page**  
 *Forwarding rule與target pool一起使用，以支援load balancing功能*
 ```
   gcloud compute instances create www1 \
